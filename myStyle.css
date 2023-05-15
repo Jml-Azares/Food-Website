@@ -117,3 +117,8 @@ body{
     border-left: solid 2px;
     margin-bottom: 20px;
 }
+
+.car{
+    width: 100vw;
+    height: 100vh;
+}
