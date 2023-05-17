@@ -151,3 +151,13 @@ body{
     font-size: x-large;
     color: #00235B;
 }
+
+.main-checkout {
+    width: 50%;
+    margin: auto;
+}
+
+.head-cart {
+    font-weight: bolder;
+    color: #00235B;
+}
