@@ -23,7 +23,7 @@ body{
 }
 
 .footer{
-    background-color: #A9907E;
+    background: linear-gradient(112.87deg, #75c983, #d2d699);
     width: 100vw;
     height: 50px;
     margin-top: 120px;
@@ -35,7 +35,7 @@ body{
 }
 
 .nav2ndP{
-    background-color: #A9907E;
+    background: linear-gradient(112.87deg, #75c983, #d2d699);
     font-weight: bolder;
 }
 
@@ -176,4 +176,5 @@ body{
     border-radius: 30px;
     color: black;
     background: linear-gradient(112.87deg, #FFB84C, #FDF7C3);
+    padding: 10px;
 }
