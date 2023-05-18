@@ -163,3 +163,14 @@ body{
     font-weight: bolder;
     color: #00235B;
 }
+
+.carousel{
+    padding-top: 100px;
+    width: 75vw;
+    margin: auto;
+}
+
+.carousel-caption{
+    padding-top: 100px;
+    color: black;
+}
