@@ -37,6 +37,7 @@ body{
 .nav2ndP{
     background: linear-gradient(112.87deg, #75c983, #d2d699);
     font-weight: bolder;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .icon{
@@ -177,4 +178,8 @@ body{
     color: black;
     background: linear-gradient(112.87deg, #FFB84C, #FDF7C3);
     padding: 10px;
+}
+
+.home-buttons{
+    margin-top: 50px;
 }
