@@ -171,6 +171,9 @@ body{
 }
 
 .carousel-caption{
-    padding-top: 100px;
+    font-weight: bolder;
+    border: solid 3px;
+    border-radius: 30px;
     color: black;
+    background: linear-gradient(112.87deg, #FFB84C, #FDF7C3);
 }
