@@ -149,11 +149,12 @@ body{
 }
 
 .heading-order {
-    margin-top: 120px;
-    padding-left: 50px;
-    font-weight: 1000;
-    font-size: x-large;
-    color: #00235B;
+    margin-top: 80px;
+    padding: 0;
+}
+
+.banner {
+    width: 100vw;
 }
 
 .main-checkout {
