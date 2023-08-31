@@ -1,269 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Juana Lugaw</title>
-    <script src="https://kit.fontawesome.com/9983c167b7.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="myStyle.css">
-    <link rel="shortcut icon" href="assets/images/Juana Lugaw.png" type="image/x-icon">
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/9983c167b7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="myStyle.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/Juana Lugaw.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
     <nav class="navbar navbar-expand-lg nav2ndP fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img class="icon" src="assets/images/Juana Lugaw.png"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="learnMore.html">Learn More</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
-              </li>
-            </ul>
-            <span class="navbar-text">
-              The Best Lugaw in Town!
-            </span>
-          </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img class="icon" src="assets/images/Juana Lugaw.png"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="learnMore.html">Learn More</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+          </ul>
+          <span class="navbar-text"> The Best Lugaw in Town! </span>
         </div>
-      </nav>
-      <div class="heading-order container-fluid">
-        <img class="banner" src="assets/images/banner.jpg">
       </div>
-      <div class="menu-container p-5 mx-auto container container-sm">
-        <div class="add-ons table-responsive">
-          <p class="text-danger fw-bolder fs-3">Online orders are available only for delivery within Cabadbaran City. Please vist our stall if you want to experience our healthy Lugaw.</p>
-          <table class="table table-striped">
-            <thead>
-              <tr>
-                <th scope="col">Add-ons</th>
-                <th scope="col">Price</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Shredded Chicken
-                </td>
-                <td>₱ 15</td>
-              </tr>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Beef Strips
-                </td>
-                <td>₱ 20</td>
-              </tr>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Assorted Seafood
-                </td>
-                <td>₱ 25</td>
-              </tr>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Assorted Vegetables
-                </td>
-                <td>₱ 10</td>
-              </tr>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Assorted Mushrooms
-                </td>
-                <td>₱ 15</td>
-              </tr>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Hard Boiled Egg
-                </td>
-                <td>₱ 10</td>
-              </tr>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Fried Tofu
-                </td>
-                <td>₱ 15</td>
-              </tr>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Pork Strips
-                </td>
-                <td>₱ 20</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="toppings table-responsive">
-          <table class="table table-striped">
-            <thead>
-              <tr>
-                <th scope="col">Toppings</th>
-                <th scope="col">Price</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Fried Garlic
-                </td>
-                <td>₱ 5</td>
-              </tr>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Chopped Scallions
-                </td>
-                <td>₱ 5</td>
-              </tr>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Soy Sauce
-                </td>
-                <td>₱ 3</td>
-              </tr>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Vinegar
-                </td>
-                <td>₱ 3</td>
-              </tr>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Calamansi
-                </td>
-                <td>₱ 3</td>
-              </tr>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Chili Flakes
-                </td>
-                <td>₱ 3</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="Drinks table-responsive">
-          <table class="table table-striped">
-            <thead>
-              <tr>
-                <th scope="col">Drinks</th>
-                <th scope="col">Price</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Iced Tea
-                </td>
-                <td>₱ 20</td>
-              </tr>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Lemonade
-                </td>
-                <td>₱ 25</td>
-              </tr>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Mineral Water
-                </td>
-                <td>₱ 15</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="desserts table-responsive">
-          <table class="table table-striped">
-            <thead>
-              <tr>
-                <th scope="col">Desserts</th>
-                <th scope="col">Price</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Turon
-                </td>
-                <td>₱ 20</td>
-              </tr>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Leche Flan
-                </td>
-                <td>₱ 35</td>
-              </tr>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Ube Halaya
-                </td>
-                <td>₱ 30</td>
-              </tr>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Buko Pandan
-                </td>
-                <td>₱ 35</td>
-              </tr>
-              <tr>
-                <td>
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault"></label>
-                  Mais Con Yelo
-                </td>
-                <td>₱ 25</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+    </nav>
+    <div class="heading-order container-fluid">
+      <img class="banner" src="assets/images/banner.jpg" />
+    </div>
+    <div class="menu-container p-5 mx-auto container container-sm">
+      <div class="add-ons table-responsive">
+        <p class="text-danger fw-bolder fs-3">
+          Online orders are available only for delivery within Cabadbaran City.
+          Please vist our stall if you want to experience our healthy Lugaw.
+        </p>
+        <table class="table table-striped">
+          <thead>
+            <tr class="fw-bolder fs-3">
+              <th scope="col">Add-ons</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Shredded Chicken
+              </td>
+              <td class="table-price">₱ 15</td>
+            </tr>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Beef Strips
+              </td>
+              <td class="table-price">₱ 20</td>
+            </tr>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Assorted Seafood
+              </td>
+              <td class="table-price">₱ 25</td>
+            </tr>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Assorted Vegetables
+              </td>
+              <td class="table-price">₱ 10</td>
+            </tr>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Assorted Mushrooms
+              </td>
+              <td class="table-price">₱ 15</td>
+            </tr>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Hard Boiled Egg
+              </td>
+              <td class="table-price">₱ 10</td>
+            </tr>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Fried Tofu
+              </td>
+              <td class="table-price">₱ 15</td>
+            </tr>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Pork Strips
+              </td>
+              <td class="table-price">₱ 20</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="toppings table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr class="fw-bolder fs-3">
+              <th scope="col">Toppings</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Fried Garlic
+              </td>
+              <td class="table-price">₱ 5</td>
+            </tr>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Chopped Scallions
+              </td>
+              <td class="table-price">₱ 5</td>
+            </tr>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Soy Sauce
+              </td>
+              <td class="table-price">₱ 3</td>
+            </tr>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Vinegar
+              </td>
+              <td class="table-price">₱ 3</td>
+            </tr>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Calamansi
+              </td>
+              <td class="table-price">₱ 3</td>
+            </tr>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Chili Flakes
+              </td>
+              <td class="table-price">₱ 3</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="Drinks table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr class="fw-bolder fs-3">
+              <th scope="col">Drinks</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Iced Tea
+              </td>
+              <td class="table-price">₱ 20</td>
+            </tr>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Lemonade
+              </td>
+              <td class="table-price">₱ 25</td>
+            </tr>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Bottled Water
+              </td>
+              <td class="table-price">₱ 15</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="desserts table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr class="fw-bolder fs-3">
+              <th scope="col">Desserts</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Turon
+              </td>
+              <td class="table-price">₱ 20</td>
+            </tr>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Leche Flan
+              </td>
+              <td class="table-price">₱ 35</td>
+            </tr>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Ube Halaya
+              </td>
+              <td class="table-price">₱ 30</td>
+            </tr>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Buko Pandan
+              </td>
+              <td class="table-price">₱ 35</td>
+            </tr>
+            <tr>
+              <td class="table-data">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault"></label>
+                Mais Con Yelo
+              </td>
+              <td class="table-price">₱ 25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
     <div class="row g-5 main-checkout">
       <div class="col-md-5 col-lg-4 order-md-last">
@@ -293,7 +426,9 @@
             </div>
             <span class="text-body-secondary">₱20</span>
           </li>
-          <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
+          <li
+            class="list-group-item d-flex justify-content-between bg-body-tertiary"
+          >
             <div class="text-success">
               <h6 class="my-0">Promo code</h6>
               <small>₱5-OFF</small>
@@ -307,7 +442,7 @@
         </ul>
         <form class="card p-2">
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="Promo code">
+            <input type="text" class="form-control" placeholder="Promo code" />
             <button type="submit" class="btn btn-secondary">Redeem</button>
           </div>
         </form>
@@ -318,31 +453,60 @@
           <div class="row g-3">
             <div class="col-sm-6">
               <label for="firstName" class="form-label">First name</label>
-              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
-              <div class="invalid-feedback">
-                Valid first name is required.
-              </div>
+              <input
+                type="text"
+                class="form-control"
+                id="firstName"
+                placeholder=""
+                value=""
+                required
+              />
+              <div class="invalid-feedback">Valid first name is required.</div>
             </div>
 
             <div class="col-sm-6">
               <label for="lastName" class="form-label">Last name</label>
-              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
-              <div class="invalid-feedback">
-                Valid last name is required.
-              </div>
+              <input
+                type="text"
+                class="form-control"
+                id="lastName"
+                placeholder=""
+                value=""
+                required
+              />
+              <div class="invalid-feedback">Valid last name is required.</div>
             </div>
 
             <div class="col-12">
-              <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional, you will receive weekly news letter and promotionals if you put.)</span></label>
-              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              <label for="email" class="form-label"
+                >Email
+                <span class="text-body-secondary"
+                  >(Optional, you will receive weekly news letter and
+                  promotionals if you put.)</span
+                ></label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="you@example.com"
+              />
               <div class="invalid-feedback">
                 Please enter a valid email address for shipping updates.
               </div>
             </div>
 
             <div class="col-12">
-              <label for="address" class="form-label">Street, Village/Subdivision</label>
-              <input type="text" class="form-control" id="address" placeholder="1234 Main St Farm Vill" required>
+              <label for="address" class="form-label"
+                >Street, Village/Subdivision</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="address"
+                placeholder="1234 Main St Farm Vill"
+                required
+              />
               <div class="invalid-feedback">
                 Please enter your shipping address.
               </div>
@@ -391,9 +555,7 @@
               <select class="form-select" id="state" required>
                 <option value="">Cabadbaran City</option>
               </select>
-              <div class="invalid-feedback">
-                Please provide a valid state.
-              </div>
+              <div class="invalid-feedback">Please provide a valid state.</div>
             </div>
 
             <div class="col-md-3">
@@ -405,24 +567,39 @@
               </div> -->
             </div>
           </div>
-          <hr class="my-4">
+          <hr class="my-4" />
           <h4 class="mb-3">Payment</h4>
-          <p>We only accept G-cash payment as of the moment. Please scan the barcode below.</p>
-          <p class="text-danger"><b><i>Important: Please make sure the details are complete and correct we don't give refund for incomplete and wrong details. Don't worry you can always pick up your order in our store.</i></b></p>
-          <hr class="my-4">
+          <p>
+            We only accept G-cash payment as of the moment. Please scan the
+            barcode below.
+          </p>
+          <p class="text-danger">
+            <b
+              ><i
+                >Important: Please make sure the details are complete and
+                correct we don't give refund for incomplete and wrong details.
+                Don't worry you can always pick up your order in our store.</i
+              ></b
+            >
+          </p>
+          <hr class="my-4" />
           <div class="row gy-3 col-md-6 mx-auto">
-            <img src="assets/images/GCash-MyQR-17052023170656.PNG.jpg">
+            <img src="assets/images/GCash-MyQR-17052023170656.PNG.jpg" />
           </div>
-          <hr class="my-4">
+          <hr class="my-4" />
           <button class="btn btn-warning btn-lg" type="submit">Checkout</button>
         </form>
       </div>
     </div>
     <footer>
-        <div class="text-center pt-3 footer h5">
-            <span>&copy; 2023 Juana Lugaw</span>
-        </div>
+      <div class="text-center pt-3 footer h5">
+        <span>&copy; 2023 Juana Lugaw</span>
+      </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
